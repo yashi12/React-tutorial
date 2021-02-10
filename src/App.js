@@ -5,6 +5,7 @@ import Welcome from "./components/Welcome";
 import Greet from "./components/Greet";
 import Test from "./components/Test";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 const item = {
     img: "https://m.media-amazon.com/images/I/61nWWVcL3AL._AC_UY327_FMwebp_QL65_.jpg",
@@ -29,7 +30,9 @@ const Book = (props) => {
 const App = () => {
     return (
         <div className="App">
-            <Message>   </Message>
+            <Counter />
+
+            {/*<Message>   </Message>*/}
 
             {/*<Book img={item.img} title={item.title} author={item.author}>*/}
             {/*    <p>hello</p>*/}
